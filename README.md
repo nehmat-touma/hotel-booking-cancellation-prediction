@@ -6,12 +6,8 @@ This project analyzes the "Hotel booking demand" dataset obtained from Kaggle. T
 The primary objective is to predict whether a guest will cancel their reservation. The analysis involves descriptive analytics, machine learning, and feature selection.
 
 ## **Contents**
-Dataset Description: Details about the dataset, its structure, and attributes.
-Plots and Visualizations: Visual representations of data insights.
-Methodology: Overview of the analytical approach, work division, and methodologies used.
-Descriptive Analytics
-The analysis includes:
 
+### Descriptive Analytics
 - Heatmap depicting correlations between features.
 - Distribution of canceled bookings.
 - Guest distribution between City and Resort hotels.
@@ -24,7 +20,7 @@ The analysis includes:
 - Average Daily Rate per month.
 - Effect of deposit type on cancellation.
 
-## **Feature Engineering**
+### **Feature Engineering**
 - Preprocessing
 - Handling null values.
 - Transformation of reservation date.
@@ -33,7 +29,7 @@ The analysis includes:
 - Utilized Feature Importance based on ExtraTreesClassifier.
 - Applied Recursive Feature Elimination (RFE) with Logistic Regression Estimator.
 
-## **Machine Learning Models**
+### **Machine Learning Models**
 Implemented five machine learning algorithms:
 
 1. Logistic Regression
@@ -43,14 +39,14 @@ Implemented five machine learning algorithms:
 5. Support Vector Machine (SVM) Classifier
 _Tuned hyperparameters for optimal model performance._
 
-## **Results**
+### **Results**
 The **Random Forest Classifier** with Feature Importance and 15 features yielded the best results:
 
 - F1 Score: 0.9433
 - Accuracy: 0.948
 
-## **Conclusion**
+### **Conclusion**
 The project successfully predicts hotel reservation cancellations using machine learning. The final model achieved an F1 test score of 0.9355 and a test accuracy of 0.9414.
 
-## **Dataset**
+### **Dataset**
 Hotel booking demand dataset from Kaggle https://www.kaggle.com/jessemostipak/hotel-booking-demand.
